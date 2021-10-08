@@ -36,3 +36,5 @@ php artisan vendor:publish
 ```shell
 php artisan migrate
 ```
+
+5. Now you can see all requests to your server (use '/history' route).
