@@ -1,0 +1,31 @@
+{
+    "name": "olegsv/history",
+    "description": "This package put information about each request into clickhouse db",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "glushkovds/phpclickhouse-laravel": "1.10.0",
+        "illuminate/support": "^8.54",
+        "illuminate/routing": "^8.63",
+        "laravel/ui": "^3.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Olegsv\\History\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg Sviridov",
+            "email": "olegsv3007@yandex.ru"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Olegsv\\History\\ServiceProvider"
+            ]
+        }
+    }
+}
