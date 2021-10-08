@@ -19,7 +19,7 @@ class HistoryIndexController extends Controller
         return view('history::index', compact(['requests', 'filters']));
     }
 
-    public function getRequestService(): RequestService
+    private function getRequestService(): RequestService
     {
         return app(RequestService::class);
     }

@@ -1,6 +1,6 @@
 {
     "name": "olegsv/history",
-    "description": "This package put all information about request into clickhouse",
+    "description": "This package put information about each request into clickhouse db",
     "type": "library",
     "require": {
         "php": ">=7.1",
